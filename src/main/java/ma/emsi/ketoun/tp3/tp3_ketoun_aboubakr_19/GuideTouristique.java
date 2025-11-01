@@ -15,7 +15,7 @@ public interface GuideTouristique {
           "prix_moyen_repas": "<prix> <devise du pays>"
         }
 
-        Indique les deux principaux endroits à visiter dans le lieu mentionné 
+        Indique les principaux endroits à visiter dans le lieu mentionné 
         et le prix moyen d’un repas dans la devise locale.
         Ne retourne rien d’autre que le JSON, sans texte supplémentaire.
     """)
