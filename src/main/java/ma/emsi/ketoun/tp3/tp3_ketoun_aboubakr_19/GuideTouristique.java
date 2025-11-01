@@ -7,7 +7,7 @@ public interface GuideTouristique {
     @SystemMessage("""
         Tu es un guide touristique expert. 
         Lorsque l’utilisateur te donne le nom d’une ville ou d’un pays, 
-        tu dois répondre en format JSON avec exactement cette structure :
+        tu dois répondre en format JSON avec exactement cette structure , (n'utilise pas MarkDown) :
 
         {
           "ville_ou_pays": "nom de la ville ou du pays",
